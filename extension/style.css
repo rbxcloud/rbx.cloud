@@ -1,0 +1,39 @@
+.item-cards-stackable .item-card {
+    float: none;
+    display: inline-block;
+    padding: 5px;
+    width: 16.66667%;
+    color: steelblue;
+}
+.item-cards-stackable .item-card:hover {
+    color:forestgreen
+  }
+
+
+#wrap > div.container-main > div.content > div.profile-container.ng-scope > div > div.section.profile-header > div > div.profile-header-top > div.header-caption > div.header-title > h2 {
+    font-size: '27px'
+}
+
+#pingbutton {
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #ff9800;
+    border: 1px solid #ff9800;
+    color: #fff;
+    cursor: pointer;
+    
+    font-weight: 500;
+    width:195px;
+    height: 40px;
+   
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 5px;
+}
+
