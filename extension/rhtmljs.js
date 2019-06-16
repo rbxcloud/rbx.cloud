@@ -40,9 +40,9 @@ $(document).ready(function () {
         btn.innerHTML = "Best Performing Server"
         btn.setAttribute("id", "pingbutton")
         if (doc) { doc.appendChild(btn) }
+       
         
-        
-        var placeid = document.getElementById('MultiplayerVisitButton').getAttribute('placeid')
+        var placeid = $("#MultiplayerVisitButton").attr("placeid");
         console.log(placeid)
 
         $('#pingbutton').click(function () {
